@@ -10,16 +10,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import copy
 import plotly.express as px
-from sklearn.model_selection import train_test_split, KFold, cross_validate, cross_val_score
-from sklearn.pipeline import Pipeline
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-from sklearn.impute import SimpleImputer
-from sklearn.ensemble import RandomForestClassifier
-
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score
 
 initial_data = pd.read_csv(r'C:\python\hotel_bookings.csv')
 
